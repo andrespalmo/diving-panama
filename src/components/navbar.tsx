@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./language-switcher";
@@ -20,10 +21,14 @@ export function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-border">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-xl font-extrabold text-foreground tracking-tight font-[family-name:var(--font-jakarta)]">
-            SCUBA 507
+        <div className="relative flex items-center justify-between h-16">
+          {/* Logo — floats below the header */}
+          <Link href="/" className="absolute left-0 top-1/2 mt-[50px] -translate-y-1/3 z-10 block w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-full bg-white shadow-lg border-2 border-white overflow-hidden">
+            <Image src="/logo-blue.png" alt="SCUBA 507" width={200} height={200} className="w-full h-full object-cover" />
           </Link>
+
+          {/* Spacer to push nav links past the logo */}
+          <div className="w-48 md:w-64 shrink-0" />
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
@@ -65,7 +70,7 @@ export function Navbar() {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="md:hidden pb-4 border-t border-border mt-2 pt-4">
+          <div className="md:hidden pb-4 border-t border-border mt-2 pt-4 pl-48">
             {links.map((link) => (
               <Link
                 key={link.href}
