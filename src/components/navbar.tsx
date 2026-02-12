@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -10,6 +10,15 @@ export function Navbar() {
   const t = useTranslations("nav");
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    function onScroll() {
+      setScrolled(window.scrollY > 50);
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const links = [
     { href: "/", label: t("home") },
@@ -22,13 +31,17 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-border">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
-          {/* Logo — floats below the header */}
-          <Link href="/" className="absolute left-0 top-1/2 mt-[50px] -translate-y-1/3 z-10 block w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-full bg-white shadow-lg border-2 border-white overflow-hidden">
+          {/* Logo — floats below the header, shrinks on scroll */}
+          <Link href="/" className={`absolute left-0 top-1/2 -translate-y-1/3 z-10 block rounded-full bg-white shadow-lg border-2 border-white overflow-hidden transition-all duration-300 ${
+            scrolled
+              ? "w-[75px] h-[75px] md:w-[100px] md:h-[100px] mt-0"
+              : "w-[150px] h-[150px] md:w-[200px] md:h-[200px] mt-[50px]"
+          }`}>
             <Image src="/logo-blue.png" alt="SCUBA 507" width={200} height={200} className="w-full h-full object-cover" />
           </Link>
 
           {/* Spacer to push nav links past the logo */}
-          <div className="w-48 md:w-64 shrink-0" />
+          <div className={`shrink-0 transition-all duration-300 ${scrolled ? "w-24 md:w-28" : "w-48 md:w-64"}`} />
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
