@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "title": "SCUBA 507 - Marine Experiences at Coiba National Park",
+    "description": "Scuba diving, snorkeling, and exclusive marine experiences at Coiba National Park, Panama. Guided dives, diving courses, and personalized tours.",
+    "services_title": "Services - SCUBA 507",
+    "services_description": "Discover our scuba diving, snorkeling, courses, and marine experiences at Coiba National Park.",
+    "gallery_title": "Gallery - SCUBA 507",
+    "gallery_description": "Photo and video gallery of our marine experiences at Coiba National Park, Panama.",
+    "about_title": "About Us - SCUBA 507",
+    "about_description": "Meet the SCUBA 507 team and discover why Coiba National Park is a world-class diving destination.",
+    "booking_title": "Book Now - SCUBA 507",
+    "booking_description": "Book your marine experience with SCUBA 507 at Coiba National Park, Panama."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "about": "About",
+    "booking": "Booking",
+    "book_now": "Book Now"
+  },
+  "hero": {
+    "headline": "Dive Into Paradise",
+    "subtitle": "Exclusive marine experiences at Coiba National Park",
+    "cta": "Explore Our Services"
+  },
+  "services_preview": {
+    "title": "Our Services",
+    "subtitle": "Marine experiences for all levels",
+    "learn_more": "Learn More"
+  },
+  "why_us": {
+    "title": "Why Dive With Us?",
+    "coiba_title": "Coiba National Park",
+    "coiba_desc": "UNESCO World Heritage Site, home to the largest coral reefs in the Eastern Pacific.",
+    "marine_title": "Incredible Marine Life",
+    "marine_desc": "Sharks, rays, sea turtles, moray eels, and thousands of tropical fish species await you.",
+    "exclusive_title": "Exclusive Experiences",
+    "exclusive_desc": "Small groups and personalized attention for a safe and unforgettable experience."
+  },
+  "cta_banner": {
+    "title": "Ready to Explore the Deep?",
+    "subtitle": "Book your underwater adventure today",
+    "button": "Book Now"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Exclusive marine experiences at Coiba National Park",
+    "per_person": "per person",
+    "couple": "couple (2 people)",
+    "min_group": "Minimum group: {count} people",
+    "max_group": "Maximum: {count} people",
+    "includes": "Includes",
+    "not_includes": "Does not include",
+    "book_service": "Book This Service",
+    "park_fee_title": "Coiba National Park Entrance Fee",
+    "park_fee_desc": "Coiba National Park entrance fee is not included in our services (except Underwater Marriage Proposal): $20 USD per person for foreigners and $5 USD per person for Panamanians.",
+    "fishing_title": "Fishing Tours",
+    "fishing_desc": "Ask us about our fishing tours. Contact us for more information!",
+    "accommodation_title": "Accommodation",
+    "accommodation_desc": "Ask about our lodging options in Pixvae.",
+    "items": {
+      "buceo": {
+        "name": "Scuba Diving",
+        "subtitle": "2 Dives",
+        "price": "$160",
+        "description": "This service is for certified divers who want to continue increasing their number of dives and underwater experiences.",
+        "includes": [
+          "2 dives",
+          "Full equipment rental (mask, fins, regulator, BCD, wetsuit, weight belt, and 2 tanks)",
+          "Refreshments"
+        ],
+        "audience": "Certified divers"
+      },
+      "discovery": {
+        "name": "Discovery Dive",
+        "subtitle": "Baptism - 1 Dive",
+        "price": "$150",
+        "description": "This service is for those who want to live their first diving experience and discover the underwater world in an easy and fun way.",
+        "includes": [
+          "1 dive",
+          "Full equipment rental (mask, fins, regulator, BCD, wetsuit, weight belt, and 2 tanks)",
+          "Refreshments",
+          "Underwater photos"
+        ],
+        "audience": "Beginners with no experience"
+      },
+      "snorkeling": {
+        "name": "Snorkeling & Beaches Tour",
+        "subtitle": "3 Locations in Coiba National Park",
+        "price": "$60",
+        "description": "This service is for those who want to explore the underwater world without the need for autonomous diving equipment.",
+        "includes": [
+          "Snorkeling equipment rental",
+          "Visit to 3 different locations in Coiba National Park",
+          "Refreshments"
+        ],
+        "audience": "For the whole family"
+      },
+      "open_water": {
+        "name": "Open Water Diving Course",
+        "subtitle": "Full Certification",
+        "price": "$600",
+        "description": "Get your open water diving certification with dives at one of the best diving sites in the world.",
+        "includes": [
+          "4 dives (2 days)",
+          "Full equipment rental (mask, fins, regulator, BCD, wetsuit, weight belt, and 2 tanks)",
+          "Refreshments",
+          "Virtual learning materials",
+          "Certification"
+        ],
+        "audience": "Aspiring divers"
+      },
+      "adaptive": {
+        "name": "Adaptive Diving Tour",
+        "subtitle": "Inclusive Diving",
+        "price": "$350",
+        "description": "Adaptive diving experience for people with disabilities. A safe and personalized dive in the waters of Coiba National Park.",
+        "includes": [
+          "2 dives",
+          "Full equipment rental (mask, fins, regulator, BCD, wetsuit, weight belt, and 2 tanks)",
+          "Refreshments"
+        ],
+        "audience": "People with disabilities"
+      },
+      "proposal": {
+        "name": "Underwater Marriage Proposal",
+        "subtitle": "Private Tour",
+        "price": "$800",
+        "description": "Ask the most important question of your life in an unforgettable underwater setting. Private tour for 2 people with everything included.",
+        "includes": [
+          "2 dives",
+          "Full equipment rental (mask, fins, regulator, BCD, wetsuit, weight belt, and 2 tanks)",
+          "Refreshments",
+          "Coiba National Park entrance fee included"
+        ],
+        "audience": "Couples"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Moments captured during our adventures",
+    "filter_all": "All",
+    "filter_divers": "Divers",
+    "filter_marine": "Marine Life",
+    "filter_landscapes": "Landscapes",
+    "filter_vibes": "Food & Vibes",
+    "videos_title": "Videos",
+    "videos_subtitle": "Watch our adventures in action",
+    "video_diving": "Diving in Coiba",
+    "video_adaptive": "Adaptive Diving",
+    "video_morena": "Moray Eel Spotting",
+    "video_turtle": "Swimming with Sea Turtles",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "about": {
+    "title": "About Us",
+    "intro_title": "About SCUBA 507",
+    "intro_text": "We are a company created to provide exclusive, safe, and fun marine experiences. We operate from Pixvae, in the Province of Veraguas, Panama, at the gateway to Coiba National Park.",
+    "mission_title": "Our Mission",
+    "mission_text": "To offer unique and accessible marine experiences, promoting respect for the ocean and the conservation of Coiba National Park's marine biodiversity.",
+    "coiba_title": "Coiba National Park",
+    "coiba_text1": "Coiba National Park has been a UNESCO World Heritage Site since 2005. Spanning 2,701 km², it is the largest marine protected area in Central America.",
+    "coiba_text2": "Its waters are home to the most extensive coral reefs in the Tropical Eastern Pacific, hosting sharks, humpback whales, manta rays, sea turtles, and over 800 fish species.",
+    "team_title": "Our Team",
+    "team_text": "Francisco and Sebas are certified diving instructors with years of experience in the waters of Coiba National Park. Their passion for the ocean and dedication to safety guarantee an unforgettable experience.",
+    "location_title": "Getting Here",
+    "location_text": "We are located in Pixvae, Province of Veraguas, Panama. Pixvae is a small coastal town that serves as the gateway to Coiba National Park.",
+    "contact_title": "Contact",
+    "phone": "Phone",
+    "instagram": "Instagram",
+    "location": "Location"
+  },
+  "booking": {
+    "title": "Book Now",
+    "subtitle": "Book your marine experience",
+    "form_title": "Booking Form",
+    "name": "Full Name",
+    "name_placeholder": "Your full name",
+    "email": "Email",
+    "email_placeholder": "you@email.com",
+    "phone": "Phone",
+    "phone_placeholder": "6535-8376",
+    "service": "Service",
+    "service_placeholder": "Select a service",
+    "service_options": {
+      "buceo": "Scuba Diving ($160)",
+      "discovery": "Discovery Dive ($150)",
+      "snorkeling": "Snorkeling Tour ($60)",
+      "open_water": "Open Water Diving Course ($600)",
+      "adaptive": "Adaptive Diving Tour ($350)",
+      "proposal": "Underwater Marriage Proposal ($800)",
+      "fishing": "Fishing Tour",
+      "other": "Other"
+    },
+    "date": "Preferred Date",
+    "people": "Number of People",
+    "people_placeholder": "How many people?",
+    "message": "Special Requests / Message",
+    "message_placeholder": "Tell us about your group, special needs, or any questions...",
+    "submit": "Send Request",
+    "success": "Thank you! Your request has been sent. We'll contact you soon.",
+    "contact_title": "Contact Information",
+    "whatsapp": "Message us on WhatsApp",
+    "park_fee_title": "Park Fee",
+    "park_fee_desc": "Coiba National Park entrance fee not included: $20 USD foreigners / $5 USD Panamanians."
+  },
+  "footer": {
+    "description": "Exclusive marine experiences at Coiba National Park, Panama.",
+    "quick_links": "Quick Links",
+    "contact": "Contact",
+    "follow_us": "Follow Us",
+    "rights": "All rights reserved."
+  },
+  "whatsapp_cta": "Need help? Message us"
+}

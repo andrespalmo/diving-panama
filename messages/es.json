@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "title": "SCUBA 507 - Experiencias Marinas en el Parque Nacional Coiba",
+    "description": "Buceo, snorkeling y experiencias marinas exclusivas en el Parque Nacional Coiba, Panamá. Inmersiones guiadas, cursos de buceo y tours personalizados.",
+    "services_title": "Servicios - SCUBA 507",
+    "services_description": "Descubre nuestros servicios de buceo, snorkeling, cursos y experiencias marinas en el Parque Nacional Coiba.",
+    "gallery_title": "Galería - SCUBA 507",
+    "gallery_description": "Galería de fotos y videos de nuestras experiencias marinas en el Parque Nacional Coiba, Panamá.",
+    "about_title": "Nosotros - SCUBA 507",
+    "about_description": "Conoce al equipo de SCUBA 507 y descubre por qué el Parque Nacional Coiba es un destino de buceo de clase mundial.",
+    "booking_title": "Reservar - SCUBA 507",
+    "booking_description": "Reserva tu experiencia marina con SCUBA 507 en el Parque Nacional Coiba, Panamá."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "about": "Nosotros",
+    "booking": "Reservar",
+    "book_now": "Reservar Ahora"
+  },
+  "hero": {
+    "headline": "Sumérgete en el Paraíso",
+    "subtitle": "Experiencias marinas exclusivas en el Parque Nacional Coiba",
+    "cta": "Explora Nuestros Servicios"
+  },
+  "services_preview": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Experiencias marinas para todos los niveles",
+    "learn_more": "Ver Más"
+  },
+  "why_us": {
+    "title": "¿Por Qué Bucear Con Nosotros?",
+    "coiba_title": "Parque Nacional Coiba",
+    "coiba_desc": "Patrimonio de la Humanidad UNESCO, hogar de los arrecifes de coral más grandes del Pacífico Oriental.",
+    "marine_title": "Vida Marina Increíble",
+    "marine_desc": "Tiburones, rayas, tortugas marinas, morenas y miles de especies de peces tropicales te esperan.",
+    "exclusive_title": "Experiencias Exclusivas",
+    "exclusive_desc": "Grupos pequeños y atención personalizada para una experiencia segura e inolvidable."
+  },
+  "cta_banner": {
+    "title": "¿Listo para Explorar las Profundidades?",
+    "subtitle": "Reserva tu aventura submarina hoy",
+    "button": "Reservar Ahora"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Experiencias marinas exclusivas en el Parque Nacional Coiba",
+    "per_person": "por persona",
+    "couple": "pareja (2 personas)",
+    "min_group": "Grupo mínimo: {count} personas",
+    "max_group": "Máximo: {count} personas",
+    "includes": "Incluye",
+    "not_includes": "No incluye",
+    "book_service": "Reservar Este Servicio",
+    "park_fee_title": "Tarifa de Entrada al Parque Nacional Coiba",
+    "park_fee_desc": "La entrada al Parque Nacional Natural Coiba no está incluida en nuestros servicios (excepto Petición de Matrimonio Submarina): $20 USD por persona para extranjeros y $5 USD por persona para panameños.",
+    "fishing_title": "Tours de Pesca",
+    "fishing_desc": "Pregunta también por nuestros tours de pesca. ¡Contáctanos para más información!",
+    "accommodation_title": "Alojamiento",
+    "accommodation_desc": "Pregunta también por nuestras opciones de alojamiento en Pixvae.",
+    "items": {
+      "buceo": {
+        "name": "Buceo con Tanque",
+        "subtitle": "2 Inmersiones",
+        "price": "$160",
+        "description": "Este servicio va orientado a quienes ya son buzos certificados y desean seguir aumentando su número de inmersiones y experiencias submarinas.",
+        "includes": [
+          "2 inmersiones",
+          "Alquiler del equipo completo (máscara, aletas, regulador, chaleco, traje, cinturón con pesas y 2 tanques)",
+          "Refrigerio"
+        ],
+        "audience": "Buzos certificados"
+      },
+      "discovery": {
+        "name": "Discovery Dive",
+        "subtitle": "Bautismo - 1 Inmersión",
+        "price": "$150",
+        "description": "Este servicio está orientado para quienes quieren vivir su primera experiencia de buceo y conocer así el mundo submarino de una forma fácil y divertida.",
+        "includes": [
+          "1 inmersión",
+          "Alquiler del equipo completo (máscara, aletas, regulador, chaleco, traje, cinturón con pesas y 2 tanques)",
+          "Refrigerio",
+          "Fotos bajo el agua"
+        ],
+        "audience": "Principiantes sin experiencia"
+      },
+      "snorkeling": {
+        "name": "Tour de Snorkeling y Playas",
+        "subtitle": "3 Lugares del Parque Nacional Coiba",
+        "price": "$60",
+        "description": "Este servicio va orientado a quienes desean explorar el mundo submarino sin la necesidad de un equipo de buceo autónomo.",
+        "includes": [
+          "Alquiler del equipo de snorkeling",
+          "Visita a 3 lugares diferentes del Parque Nacional Coiba",
+          "Refrigerio"
+        ],
+        "audience": "Para toda la familia"
+      },
+      "open_water": {
+        "name": "Curso de Buceo Aguas Abiertas",
+        "subtitle": "Certificación Completa",
+        "price": "$600",
+        "description": "Obtén tu certificación de buceo en aguas abiertas con inmersiones en uno de los mejores sitios de buceo del mundo.",
+        "includes": [
+          "4 inmersiones (2 días)",
+          "Alquiler del equipo completo (máscara, aletas, regulador, chaleco, traje, cinturón con pesas y 2 tanques)",
+          "Refrigerios",
+          "Material virtual",
+          "Certificación"
+        ],
+        "audience": "Aspirantes a buzos"
+      },
+      "adaptive": {
+        "name": "Tour de Buceo Adaptado",
+        "subtitle": "Buceo Inclusivo",
+        "price": "$350",
+        "description": "Experiencia de buceo adaptado para personas con discapacidad. Una inmersión segura y personalizada en las aguas del Parque Nacional Coiba.",
+        "includes": [
+          "2 inmersiones",
+          "Alquiler del equipo completo (máscara, aletas, regulador, chaleco, traje, cinturón con pesas y 2 tanques)",
+          "Refrigerios"
+        ],
+        "audience": "Personas con discapacidad"
+      },
+      "proposal": {
+        "name": "Petición de Matrimonio Submarina",
+        "subtitle": "Tour Privado",
+        "price": "$800",
+        "description": "Haz la pregunta más importante de tu vida en un escenario inolvidable bajo el mar. Tour privado para 2 personas con todo incluido.",
+        "includes": [
+          "2 inmersiones",
+          "Alquiler del equipo completo (máscara, aletas, regulador, chaleco, traje, cinturón con pesas y 2 tanques)",
+          "Refrigerios",
+          "Entrada al Parque Nacional Coiba incluida"
+        ],
+        "audience": "Parejas"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Momentos capturados en nuestras aventuras",
+    "filter_all": "Todas",
+    "filter_divers": "Buzos",
+    "filter_marine": "Vida Marina",
+    "filter_landscapes": "Paisajes",
+    "filter_vibes": "Comida y Ambiente",
+    "videos_title": "Videos",
+    "videos_subtitle": "Mira nuestras aventuras en acción",
+    "video_diving": "Buceo en Coiba",
+    "video_adaptive": "Buceo Adaptado",
+    "video_morena": "Avistamiento de Morena",
+    "video_turtle": "Nadando con Tortugas Marinas",
+    "close": "Cerrar",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "about": {
+    "title": "Nosotros",
+    "intro_title": "Sobre SCUBA 507",
+    "intro_text": "Somos una empresa creada para brindar experiencias marinas con un toque exclusivo, de forma segura y divertida. Operamos desde Pixvae, en la Provincia de Veraguas, Panamá, a las puertas del Parque Nacional Coiba.",
+    "mission_title": "Nuestra Misión",
+    "mission_text": "Ofrecer experiencias marinas únicas y accesibles, promoviendo el respeto por el océano y la conservación de la biodiversidad marina del Parque Nacional Coiba.",
+    "coiba_title": "Parque Nacional Coiba",
+    "coiba_text1": "El Parque Nacional Coiba es Patrimonio de la Humanidad de la UNESCO desde 2005. Con una extensión de 2,701 km², es el área marina protegida más grande de Centroamérica.",
+    "coiba_text2": "Sus aguas albergan los arrecifes de coral más extensos del Pacífico Oriental Tropical, siendo hogar de tiburones, ballenas jorobadas, rayas mantarrayas, tortugas marinas y más de 800 especies de peces.",
+    "team_title": "Nuestro Equipo",
+    "team_text": "Francisco y Sebas son instructores de buceo certificados con años de experiencia en las aguas del Parque Nacional Coiba. Su pasión por el océano y dedicación a la seguridad garantizan una experiencia inolvidable.",
+    "location_title": "Cómo Llegar",
+    "location_text": "Nos encontramos en Pixvae, Provincia de Veraguas, Panamá. Pixvae es un pequeño pueblo costero que sirve como puerta de entrada al Parque Nacional Coiba.",
+    "contact_title": "Contacto",
+    "phone": "Teléfono",
+    "instagram": "Instagram",
+    "location": "Ubicación"
+  },
+  "booking": {
+    "title": "Reservar",
+    "subtitle": "Reserva tu experiencia marina",
+    "form_title": "Formulario de Reserva",
+    "name": "Nombre Completo",
+    "name_placeholder": "Tu nombre completo",
+    "email": "Correo Electrónico",
+    "email_placeholder": "tu@email.com",
+    "phone": "Teléfono",
+    "phone_placeholder": "6535-8376",
+    "service": "Servicio",
+    "service_placeholder": "Selecciona un servicio",
+    "service_options": {
+      "buceo": "Buceo con Tanque ($160)",
+      "discovery": "Discovery Dive ($150)",
+      "snorkeling": "Tour de Snorkeling ($60)",
+      "open_water": "Curso de Buceo Aguas Abiertas ($600)",
+      "adaptive": "Tour de Buceo Adaptado ($350)",
+      "proposal": "Petición de Matrimonio Submarina ($800)",
+      "fishing": "Tour de Pesca",
+      "other": "Otro"
+    },
+    "date": "Fecha Preferida",
+    "people": "Número de Personas",
+    "people_placeholder": "¿Cuántas personas?",
+    "message": "Solicitudes Especiales / Mensaje",
+    "message_placeholder": "Cuéntanos sobre tu grupo, necesidades especiales, o cualquier pregunta...",
+    "submit": "Enviar Solicitud",
+    "success": "¡Gracias! Tu solicitud ha sido enviada. Te contactaremos pronto.",
+    "contact_title": "Información de Contacto",
+    "whatsapp": "Escríbenos por WhatsApp",
+    "park_fee_title": "Tarifa del Parque",
+    "park_fee_desc": "La entrada al Parque Nacional Coiba no está incluida: $20 USD extranjeros / $5 USD panameños."
+  },
+  "footer": {
+    "description": "Experiencias marinas exclusivas en el Parque Nacional Coiba, Panamá.",
+    "quick_links": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "follow_us": "Síguenos",
+    "rights": "Todos los derechos reservados."
+  },
+  "whatsapp_cta": "¿Necesitas ayuda? Escríbenos"
+}
