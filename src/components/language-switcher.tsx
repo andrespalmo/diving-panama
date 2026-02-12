@@ -13,19 +13,21 @@ export function LanguageSwitcher() {
     router.replace(pathname, { locale: newLocale as (typeof routing.locales)[number] });
   }
 
+  const flags: Record<string, string> = { en: "\u{1F1FA}\u{1F1F8}", es: "\u{1F1F2}\u{1F1FD}" };
+
   return (
-    <div className="flex items-center gap-1 text-sm">
+    <div className="flex items-center bg-border/50 rounded-xl p-1 text-2xl">
       {routing.locales.map((loc) => (
         <button
           key={loc}
           onClick={() => switchLocale(loc)}
-          className={`px-2.5 py-1 rounded-lg transition-colors ${
+          className={`px-3 py-1.5 rounded-lg cursor-pointer transition-all ${
             locale === loc
-              ? "bg-primary/10 text-primary font-semibold"
-              : "text-muted hover:text-foreground"
+              ? "bg-white shadow-sm scale-110"
+              : "hover:bg-white/50"
           }`}
         >
-          {loc.toUpperCase()}
+          {flags[loc] ?? loc.toUpperCase()}
         </button>
       ))}
     </div>

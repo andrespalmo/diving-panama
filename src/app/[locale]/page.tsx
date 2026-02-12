@@ -25,10 +25,10 @@ export default function HomePage() {
             muted
             loop
             playsInline
-            poster="/images/hero/sea-landscape.jpg"
+            poster="/images/gallery/vibes/underwater.jpg"
             className="w-full h-full object-cover"
           >
-            <source src="/videos/diving.mp4" type="video/mp4" />
+            <source src="/videos/swiming-with-turtle.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
         </div>
