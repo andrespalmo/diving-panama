@@ -60,6 +60,10 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${inter.variable} ${jakarta.variable}`}>
+      <head>
+        <link rel="preload" href="/images/hero/underwater.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/videos/swiming-with-turtle.mp4" as="video" type="video/mp4" />
+      </head>
       <body className="min-h-screen flex flex-col bg-background text-foreground">
         <NextIntlClientProvider messages={messages}>
           <Navbar />

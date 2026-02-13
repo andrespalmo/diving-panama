@@ -37,7 +37,7 @@ export function Navbar() {
               ? "w-[75px] h-[75px] md:w-[100px] md:h-[100px] mt-0"
               : "w-[150px] h-[150px] md:w-[200px] md:h-[200px] mt-[50px]"
           }`}>
-            <Image src="/logo-blue.png" alt="SCUBA 507" width={200} height={200} className="w-full h-full object-cover" />
+            <Image src="/logo-blue.webp" alt="SCUBA 507" width={200} height={200} priority className="w-full h-full object-cover" />
           </Link>
 
           {/* Spacer to push nav links past the logo */}

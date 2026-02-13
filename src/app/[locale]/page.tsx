@@ -25,7 +25,7 @@ export default function HomePage() {
             muted
             loop
             playsInline
-            poster="/images/gallery/vibes/underwater.jpg"
+            poster="/images/hero/underwater.webp"
             className="w-full h-full object-cover"
           >
             <source src="/videos/swiming-with-turtle.mp4" type="video/mp4" />
