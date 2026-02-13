@@ -30,7 +30,7 @@ const PHOTOS: Record<Exclude<Category, "all">, { src: string; alt: string }[]> =
   landscapes: [
     { src: "/images/gallery/landscapes/sea-landscape.jpg", alt: "Sea landscape" },
     ...Array.from({ length: 12 }, (_, i) => ({
-      src: `/images/gallery/landscapes/sea-landscape-${i + 2}.${i + 11 === 13 ? "jpeg" : "jpg"}`,
+      src: `/images/gallery/landscapes/sea-landscape-${i + 2}.${i + 2 === 13 ? "jpeg" : "jpg"}`,
       alt: `Sea landscape ${i + 2}`,
     })),
   ],
